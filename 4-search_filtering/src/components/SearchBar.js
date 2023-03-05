@@ -1,11 +1,27 @@
-import './SearchBar.css'
+import "./SearchBar.css";
 
-function SearchBar() {
-    return(
-        <div>
-            <input type='text' placeHolder='Search...' />
-        </div>
-    );
+import person from "../data/DataSource";
+
+function SearchBar(props) {
+
+  const changeHandler = (event) => {
+    event.preventDefault();
+
+    let personFilter = [];
+
+    person.map((item) => {
+      if (item.first_name.toLowerCase().startsWith(event.target.value)) {
+        personFilter.push(item);
+      }
+      return props.refresh(personFilter);
+    });
+  };
+
+  return (
+    <div>
+      <input type="text" onChange={changeHandler} placeHolder="Search..." />
+    </div>
+  );
 }
 
 export default SearchBar;
