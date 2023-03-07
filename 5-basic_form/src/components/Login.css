@@ -1,0 +1,31 @@
+.form_body {
+  background-color: #4D81B3;
+  padding: 2% 3%;
+  /* width: 30; */
+  /* height: 40vh; */
+  font-size: calc(30px + 2vmin);
+  border-radius: 5%;
+}
+
+.warn {
+  color: wheat;
+  background-color: red;
+  border-radius: 2%;
+}
+
+input {
+  font-size: calc(10px + 2vmin);
+  color: #326799;
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+  background-color: #D9E64C;
+  color: #326799;
+}
+
+button:hover {
+  background-color: #326799;
+  color: #D9E64C;
+  cursor: pointer;
+}
