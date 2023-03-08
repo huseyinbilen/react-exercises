@@ -1,0 +1,26 @@
+.option_body {
+    background: rgba(195, 55, 100, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(195, 55, 100, 0.3);
+    border-radius: 4px;
+    color: white;
+    font-size: calc(10px + 2vmin);
+}
+
+.option_body:hover {
+    background: rgba(195, 55, 100, 0.8);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(195, 55, 100, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clicked {
+    background: rgba(195, 55, 100, 0.8);
+}
