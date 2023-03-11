@@ -1,4 +1,4 @@
-data = [
+const data = [
     {
         question: "Lorem ipsum dolor sit amet?",
         option: [
