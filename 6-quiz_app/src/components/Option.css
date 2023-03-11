@@ -8,6 +8,7 @@
     border-radius: 4px;
     color: white;
     font-size: calc(10px + 2vmin);
+    padding-left: 15px;
 }
 
 .option_body:hover {
@@ -22,5 +23,9 @@
 }
 
 .clicked {
-    background: rgba(195, 55, 100, 0.8);
+    background: rgba(195, 55, 100, 1);
+}
+
+span {
+    padding-right: 15px;
 }

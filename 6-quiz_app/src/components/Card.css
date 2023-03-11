@@ -3,8 +3,23 @@
   background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 2%;
-  padding: 2%;
+  /* padding: 2%; */
+  padding: 50px;
   width: 50%;
   height: 80vh;
   color: purple;
+}
+
+button {
+  background-color: #242d78;
+  border-radius: 5px;
+  color: #BDFFF3;
+  font-size: calc(10px + 2vmin);
+  float: right;
+  flex: 0 1 auto;
+  align-self: flex-end;
+}
+
+button:hover {
+  background-color: #2830768c;
 }

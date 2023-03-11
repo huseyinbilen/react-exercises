@@ -6,6 +6,10 @@ function Card() {
         <div className="card_body">
             <h3>Lorem Ipsum Dolor Sit Amet?</h3>
             <Option />
+            <Option />
+            <Option />
+            <Option />
+            <button>Next</button>
         </div>
     );
 }
