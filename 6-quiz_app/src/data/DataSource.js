@@ -1,19 +1,29 @@
 const data = [
   {
-    question: "Lorem ipsum dolor sit amet?",
-    option: ["Lorem", "Ipsum", "Dolor", "Sit Amet"],
-    answer: "Lorem",
+    question: "What is the most popular programming language?",
+    option: ["Javascript", "C#", "Python", "Java"],
+    answer: "Javascript",
   },
   {
-    question: "There are many variations of passages of Lorem Ipsum available?",
-    option: [
-      "There are many",
-      "variations of passages",
-      "Lorem Ipsum",
-      "available",
-    ],
-    answer: "Lorem Ipsum",
+    question: "What language is React.js programmed with?",
+    option: ["Python", "C#", "Javascript", "PHP"],
+    answer: "Javascript",
   },
+  {
+    question: "Which of the following is a NoSQL database?",
+    option: ["PostgreSQL", "MongoDb", "Microsoft Access", "Oracle"],
+    answer: "MongoDb",
+  },
+  {
+    question: "Which of the following is not a frontend library?",
+    option: ["React.js", "Angular.js", "Vue.js", "Express.js"],
+    answer: "Express.js",
+  },
+  {
+    question: "Do you love React?",
+    option: ["YES", "NO"],
+    answer: "YES"
+  }
 ];
 
 export default data;
