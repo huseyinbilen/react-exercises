@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Card question={data} />
+      <Card items={data} />
     </div>
   );
 }

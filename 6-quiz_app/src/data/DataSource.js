@@ -1,28 +1,19 @@
 const data = [
-    {
-        question: "Lorem ipsum dolor sit amet?",
-        option: [
-            {
-                "A": "Lorem",
-                "B": "Ipsum",
-                "C": "Dolor",
-                "D": "Sit Amet"
-            }
-        ],
-        answer: "A"
-    },
-    {
-        question: "There are many variations of passages of Lorem Ipsum available?",
-        option: [
-            {
-                "A": "There are many",
-                "B": "variations of passages",
-                "C": "Lorem Ipsum",
-                "D": "available"
-            }
-        ],
-        answer: "C"
-    }
+  {
+    question: "Lorem ipsum dolor sit amet?",
+    option: ["Lorem", "Ipsum", "Dolor", "Sit Amet"],
+    answer: "Lorem",
+  },
+  {
+    question: "There are many variations of passages of Lorem Ipsum available?",
+    option: [
+      "There are many",
+      "variations of passages",
+      "Lorem Ipsum",
+      "available",
+    ],
+    answer: "Lorem Ipsum",
+  },
 ];
 
 export default data;
