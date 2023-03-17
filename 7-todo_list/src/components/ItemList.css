@@ -1,0 +1,15 @@
+li {
+    background-color: #BADB76;  /* fallback for old browsers */
+    padding: 15px;
+    margin-top: 10px;
+
+}
+
+input[type=checkbox] {
+    transform: scale(1.7);
+    margin-right: 10px;
+}
+
+input:checked + label{
+    text-decoration: line-through;
+}
