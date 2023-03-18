@@ -1,6 +1,7 @@
-import './ItemList.css';
+ import './ItemList.css';
 
 function ItemList(props) {
+    console.log(props.items);
     return (
         <div>
             <ul>
