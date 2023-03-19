@@ -1,8 +1,8 @@
 import './Display.css';
-function Display() {
+function Display(props) {
     return (
         <div className="display">
-            <input type="text"></input>
+            <input type="text" id="display" value={props.value}/>
         </div>
     );
 }
