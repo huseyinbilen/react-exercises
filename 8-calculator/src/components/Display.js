@@ -1,7 +1,7 @@
 import './Display.css';
 function Display() {
     return (
-        <div>
+        <div className="display">
             <input type="text"></input>
         </div>
     );
