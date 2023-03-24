@@ -4,13 +4,6 @@
     background-color: white;
   }
   
-  @media (min-width: 800px) {
-    .show-btn {
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-    }
-  }
-  
   .equal {
     grid-column-start: 4;
     grid-column-end: 4;
@@ -23,15 +16,32 @@
     height: 50px;
     border-radius: 10px;
     color: white;
-    background-color: #6dd5ed;
+    background-color: #5140e5;
   }
   
   .clr {
-    color: #d66d75;
+    color: #d43f4b;
+    width: 60px;
+    height: 60px;
+    margin: 6px auto;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50%;
+    background: none;
+    border: 0px;
+    user-select: none;
+  }
+
+  .clr:hover {
+    background-color: #d43f4b;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
   }
   
   .exp {
-    color: #06beb6;
+    color: #5140e5;
   }
   
   .btn {
@@ -46,35 +56,22 @@
     border: 0px;
     user-select: none;
   }
-  
-  @media (min-width: 800px) {
-    .btn:hover {
-      background-color: #6dd5ed;
-      color: white;
-      transition: background-color 0.3s ease;
-      border-radius: 50%;
-    }
-  
-    .btn:active,
-    .btn.touched {
-      background-color: #48b1bf;
-      color: white;
-      transition: background-color 0.3s ease;
-      border-radius: 50%;
-    }
-  
-    .btn:active {
-      transform: scale(0.9);
-    }
-  
-    .btn.touched {
-      pointer-events: none;
-    }
+
+  .btn:hover {
+    background-color: #5140e5;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
   }
-  
-  @media (max-width: 800px) {
-    .btn:active {
-      transform: scale(0.9);
-    }
+
+  .btn:active,
+  .btn.touched {
+    background-color: #7263f2;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
   }
-  
+
+  .btn:active {
+    transform: scale(0.9);
+  }
