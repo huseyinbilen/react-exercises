@@ -1,5 +1,0 @@
-.btn_group_body {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* grid-template-columns: auto auto auto auto; */
-}
